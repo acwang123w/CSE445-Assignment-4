@@ -3,7 +3,7 @@
             targetNamespace="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd"
             elementFormDefault="qualified"
             attributeFormDefault="unqualified">
-            
+
   <xsd:annotation>
     <xsd:documentation xml:lang="en">
       Assignment 4 Hotel Schema
@@ -11,6 +11,7 @@
   </xsd:annotation>
 
   <xsd:element name="Hotels" type="tns:HotelsType"/>
+
   <xsd:complexType name="HotelsType">
     <xsd:sequence>
       <xsd:element name="Hotel" type="tns:HotelDetails" minOccurs="1" maxOccurs="unbounded"/>
