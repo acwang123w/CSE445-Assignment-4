@@ -1,4 +1,4 @@
-<xsd:schema targetNamespace="https://github.com/acwang123w/CSE445-Assignment-4/blob/main/Hotels.xsd"
+<xsd:schema targetNamespace="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd"
             elementFormDefault="qualified" 
             attributeFormDefault="unqualified">
             
