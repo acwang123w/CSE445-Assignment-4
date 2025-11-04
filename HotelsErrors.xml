@@ -1,6 +1,6 @@
-<Hotel  xmlns="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd"
+<Hotel xmlns="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd">
+        xsi:schemaLocation="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd">
   <Hotel>
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -73,7 +73,6 @@
 
   <Hotel>
     <Name>The Plaza</Name>
-    <Name>The Plaza, A Fairmont Hotel</Name>
     <Phone>212-759-3000</Phone>
     <Phone>866-940-9361</Phone>
     <Phone>212-546-5250</Phone>
@@ -82,13 +81,15 @@
       Street="5th Avenue"
       City="New York"
       State="NY"
-      Zip="10019 "
+      Zip="10019"
       NearestAirport="John F. Kennedy International"
     />
   </Hotel>
 
   <Hotel>
     <Name>The Langham</Name>
+    <Phone>312-923-9988</Phone>
+    <Phone>800-588-9141</Phone>
     <Address
       Number="330"
       Street="N. Wabash Avenue"
@@ -102,6 +103,7 @@
 
   <Hotel>
     <Name>The Driskill - The Unbound Collection by Hyatt</Name>
+    <Name>The Driskill</Name>
     <Phone>512-439-1234</Phone>
     <Address
       Number="604"
@@ -111,8 +113,8 @@
       Zip="78701"
       NearestAirport="Austin–Bergstrom International"
     />
+    <Rating>4.6</Rating>
   </Hotel>
-  <Rating>4.6</Rating>
 
   <Hotel>
     <Name>Fontainebleau Miami Beach</Name>
@@ -126,13 +128,11 @@
       Zip="33140"
       NearestAirport="Miami International"
     />
+    <Rating>4.1</Rating>
   </Hotel>
-  <Rating>4.1</Rating>
 
   <Hotel>
     <Name>Fairmont Olympic Hotel</Name>
-    <Phone>206-621-1700</Phone>
-    <Phone>888-363-5022</Phone>
     <Address
       Number="411"
       Street="University St"
@@ -140,7 +140,7 @@
       State="WA"
       Zip="98101"
       NearestAirport="Seattle–Tacoma International"
-    >
+    />
   </Hotel>
 
   <Hotel>
@@ -154,7 +154,7 @@
       State="NV"
       Zip="89109"
       NearestAirport="Harry Reid International"
-    />
+    >
   </Hotel>
 
 </Hotel>
