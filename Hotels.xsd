@@ -10,10 +10,10 @@
     </xsd:documentation>
   </xsd:annotation>
 
-  <xsd:element name="Hotels" type="HotelsType"/>
+  <xsd:element name="Hotels" type="tns:HotelsType"/>
   <xsd:complexType name="HotelsType">
     <xsd:sequence>
-      <xsd:element name="Hotel" type="HotelDetails" minOccurs="1" maxOccurs="unbounded"/>
+      <xsd:element name="Hotel" type="tns:HotelDetails" minOccurs="1" maxOccurs="unbounded"/>
     </xsd:sequence>
   </xsd:complexType>
 
@@ -21,7 +21,7 @@
     <xsd:sequence>
       <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
       <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
-      <xsd:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="Address" type="tns:AddressType" minOccurs="1" maxOccurs="1"/>
       <xsd:element name="Rating" type="xsd:decimal" minOccurs="0" maxOccurs="1"/>
     </xsd:sequence>
   </xsd:complexType>
