@@ -20,26 +20,18 @@
   <xsd:complexType name="HotelDetails">
     <xsd:sequence>
       <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-      <xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
+      <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
       <xsd:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
       <xsd:element name="Rating" type="xsd:decimal" minOccurs="0" maxOccurs="1"/>
     </xsd:sequence>
   </xsd:complexType>
 
   <xsd:complexType name="AddressType">
-    <xsd:attribute name="Number" type="xsd:positiveInteger" use="required"/>
+    <xsd:attribute name="Number" type="xsd:int" use="required"/>
     <xsd:attribute name="Street" type="xsd:string" use="required"/>
     <xsd:attribute name="City" type="xsd:string" use="required"/>
     <xsd:attribute name="State" type="xsd:string" use="required"/>
     <xsd:attribute name="Zip" type="xsd:string" use="required"/>
     <xsd:attribute name="NearestAirport" type="xsd:string" use="optional"/>
   </xsd:complexType>
-  <!--
- Define the allowed format for the Phone number with a regular exp. 
--->
-  <xsd:simpleType name="PhoneType">
-    <xsd:restriction base="xsd:string">
-      <xsd:pattern value="\d{3}\-\d{3} \d{4}"/>
-    </xsd:restriction>
-  </xsd:simpleType>
 </xsd:schema>
