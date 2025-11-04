@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-            targetNamespace="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd"
-            elementFormDefault="qualified"
-            attributeFormDefault="unqualified">
+   xmlns="http://venus.sod.asu.edu/WSRepository/xml"
+   targetNamespace="http://venus.sod.asu.edu/WSRepository/xml" 
+   elementFormDefault="qualified" attributeFormDefault="unqualified">
 
   <xsd:annotation>
     <xsd:documentation xml:lang="en">
