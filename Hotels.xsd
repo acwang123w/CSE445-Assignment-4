@@ -1,5 +1,7 @@
-<xsd:schema targetNamespace="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd"
-            elementFormDefault="qualified" 
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:tns="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd"
+            targetNamespace="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd"
+            elementFormDefault="qualified"
             attributeFormDefault="unqualified">
             
   <xsd:annotation>
