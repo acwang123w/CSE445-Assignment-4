@@ -1,6 +1,6 @@
 <Hotels xmlns="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd">
+        xsi:schemaLocation="https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd https://acwang123w.github.io/CSE445-Assignment-4/Hotels.xsd">
   <Hotel>
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -82,7 +82,7 @@
       Street="5th Avenue"
       City="New York"
       State="NY"
-      Zip="10019 "
+      Zip="10019"
       NearestAirport="John F. Kennedy International"
     />
   </Hotel>
@@ -113,8 +113,8 @@
       Zip="78701"
       NearestAirport="Austin–Bergstrom International"
     />
+    <Rating>4.6</Rating>
   </Hotel>
-  <Rating>4.6</Rating>
 
   <Hotel>
     <Name>Fontainebleau Miami Beach</Name>
@@ -128,8 +128,8 @@
       Zip="33140"
       NearestAirport="Miami International"
     />
+    <Rating>4.1</Rating>
   </Hotel>
-  <Rating>4.1</Rating>
 
   <Hotel>
     <Name>Fairmont Olympic Hotel</Name>
