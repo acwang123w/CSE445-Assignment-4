@@ -1,0 +1,157 @@
+<Hotel xsi:schemaLocation="https://github.com/acwang123w/CSE445-Assignment-4/blob/main/Hotels.xsd">
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address
+      Number="11"
+      Street="E. 7th St"
+      City="Tempe"
+      State="AZ"
+      Zip="85281"
+      NearestAirport="Sky Harbor"
+    />
+    <Rating>4.2</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hyatt Regency Phoenix</Name>
+    <Phone>602-252-1234</Phone>
+    <Address
+      Number="122"
+      Street="N. 2nd St"
+      City="Phoenix"
+      State="AZ"
+      NearestAirport="Sky Harbor"
+    />
+    <Rating>4.4</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Freehand Los Angeles</Name>
+    <Phone>213-612-0021</Phone>
+    <Address
+      Number="416"
+      Street="W. 8th St"
+      City="Los Angeles"
+      State="CA"
+      Zip="90014"
+      NearestAirport="Los Angeles International"
+    />
+    <Rating>4.1</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Clarendon Hotel and Spa</Name>
+    <Phone>602-252-7363</Phone>
+    <Address
+      Number="401"
+      Street="W. Clarendon Ave"
+      City="Phoenix"
+      State="AZ"
+      Zip="85013"
+      NearestAirport="Sky Harbor"
+    />
+    <Rating>4.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Block Hotel and Commons</Name>
+    <Phone>970-445-7767</Phone>
+    <Address
+      Number="491"
+      Street="Rainbow Dr"
+      City="Silverthorne"
+      State="CO"
+      Zip="80498"
+      NearestAirport="Eagle County Regional"
+    />
+    <Rating>4.7</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Plaza</Name>
+    <Name>The Plaza, A Fairmont Hotel</Name>
+    <Phone>212-759-3000</Phone>
+    <Phone>866-940-9361</Phone>
+    <Phone>212-546-5250</Phone>
+    <Address
+      Number="768"
+      Street="5th Avenue"
+      City="New York"
+      State="NY"
+      Zip="10019 "
+      NearestAirport="John F. Kennedy International"
+    />
+  </Hotel>
+
+  <Hotel>
+    <Name>The Langham</Name>
+    <Address
+      Number="330"
+      Street="N. Wabash Avenue"
+      City="Chicago"
+      State="IL"
+      Zip="60611"
+      NearestAirport="Chicago Midway International"
+    />
+    <Rating>4.7</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Driskill - The Unbound Collection by Hyatt</Name>
+    <Phone>512-439-1234</Phone>
+    <Address
+      Number="604"
+      Street="Brazos St"
+      City="Austin"
+      State="TX"
+      Zip="78701"
+      NearestAirport="Austin–Bergstrom International"
+    />
+  </Hotel>
+  <Rating>4.6</Rating>
+
+  <Hotel>
+    <Name>Fontainebleau Miami Beach</Name>
+    <Phone>305-538-2000</Phone>
+    <Phone>800-548-8886</Phone>
+    <Address
+      Number="4441"
+      Street="Collins Ave"
+      City="Miami Beach"
+      State="FL"
+      Zip="33140"
+      NearestAirport="Miami International"
+    />
+  </Hotel>
+  <Rating>4.1</Rating>
+
+  <Hotel>
+    <Name>Fairmont Olympic Hotel</Name>
+    <Phone>206-621-1700</Phone>
+    <Phone>888-363-5022</Phone>
+    <Address
+      Number="411"
+      Street="University St"
+      City="Seattle"
+      State="WA"
+      Zip="98101"
+      NearestAirport="Seattle–Tacoma International"
+  </Hotel>
+
+  <Hotel>
+    <Name>Bellagio Las Vegas</Name>
+    <Phone>702-693-7111</Phone>
+    <Phone>888-987-6667</Phone>
+    <Address
+      Number="3600"
+      Street="S Las Vegas Blvd"
+      City="Las Vegas"
+      State="NV"
+      Zip="89109"
+      NearestAirport="Harry Reid International"
+    />
+  </Hotel>
+
+</Hotels>
